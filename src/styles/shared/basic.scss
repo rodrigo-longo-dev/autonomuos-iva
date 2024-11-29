@@ -1,0 +1,14 @@
+%background-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+%text-gradient {
+    background: $text-gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    padding-right: 2px;
+}

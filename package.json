@@ -1,0 +1,43 @@
+{
+  "name": "next-bp-v2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-pro": "5.13.0",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "file-loader": "^6.2.0",
+    "framer-motion": "^10.16.4",
+    "gsap": "^3.11.5",
+    "include-media": "^1.4.9",
+    "next": "13.3.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.8.5",
+    "nodemailer": "^6.9.7",
+    "react": "18.2.0",
+    "react-cookie-consent": "^9.0.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/gtag.js": "^0.0.17",
+    "babel-eslint": "^10.1.0",
+    "client-only": "^0.0.1",
+    "eslint": "8.40.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-jsx": "^11.0.0",
+    "eslint-config-standard-react": "^13.0.0",
+    "eslint-import-resolver-alias": "1.1.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-next": "^0.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.32.2",
+    "sass": "1.62.1",
+    "sharp": "0.32.1"
+  }
+}

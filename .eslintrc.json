@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "plugins": ["next"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:next/recommended"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/jsx-indent": "off",
+    "react/jsx-indent-props": "off",
+    "indent": "off",
+    "react/jsx-closing-tag-location": "off"
+  },
+  "globals": {
+    "fetch": false
+  }
+}

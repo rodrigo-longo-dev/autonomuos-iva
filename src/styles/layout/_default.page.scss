@@ -1,0 +1,35 @@
+.default {
+    position: absolute;
+    inset: 0;
+    background-color: $color-cod-gray;
+    &__wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__title {
+        font-size: 20rem;
+        font-weight: 600;
+        letter-spacing: -2rem;
+        @extend %text-gradient;
+        text-align: center;
+        @include md {
+            font-size: 15rem;
+            letter-spacing: -1rem;
+
+        }
+    }
+
+    &__name {
+        width: fit-content;
+        font-size: 2.5rem;
+        font-weight: 100;
+        letter-spacing: -.2rem;
+        color: $color-contessa;
+        position: absolute;
+        right: 5rem;
+        bottom: -3rem;
+    }
+}
