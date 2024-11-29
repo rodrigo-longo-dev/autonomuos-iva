@@ -1,15 +1,9 @@
-@import './base/reset';
+@import "./base/reset";
 
-@import './utils/variables';
-@import './utils/mixins';
+@import "./utils/variables";
+@import "./utils/mixins";
 
-@import './shared/basic';
+@import "./base/fonts";
+@import "./base/base";
 
-@import './base/fonts';
-@import './base/base';
-
-@import './components/header';
-
-@import './layout/default.page';
-
-// @import './pages/';
+@import "./layout/default.page";

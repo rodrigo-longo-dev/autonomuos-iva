@@ -2,15 +2,6 @@
   "compilerOptions": {
       "baseUrl": "./src",
       "paths": {
-            "@components/*": [
-                "components/*"
-            ],
-            "@lib/*": [
-                "lib/*"
-            ],
-            "@i18n/*": [
-                "i18n/*"
-            ],
             "@pages/*": [
                 "pages/*"
             ],

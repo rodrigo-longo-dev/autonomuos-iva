@@ -9,23 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-pro": "5.13.0",
+    "@fontsource-variable/montserrat": "^5.1.0",
+    "@fontsource/bowlby-one-sc": "^5.1.0",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.1",
-    "file-loader": "^6.2.0",
-    "framer-motion": "^10.16.4",
-    "gsap": "^3.11.5",
-    "include-media": "^1.4.9",
     "next": "13.3.0",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.8.5",
-    "nodemailer": "^6.9.7",
     "react": "18.2.0",
-    "react-cookie-consent": "^9.0.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/gtag.js": "^0.0.17",
     "babel-eslint": "^10.1.0",
     "client-only": "^0.0.1",
     "eslint": "8.40.0",
